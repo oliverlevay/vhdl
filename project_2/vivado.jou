@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed Nov 09 15:42:59 2022
+# Process ID: 8536
+# Current directory: C:/Users/ol1662le-s/Program/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12448 C:\Users\ol1662le-s\Program\project_2\project_2.xpr
+# Log file: C:/Users/ol1662le-s/Program/project_2/vivado.log
+# Journal file: C:/Users/ol1662le-s/Program/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ol1662le-s/Program/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_parity.tcl
+close_sim
+file mkdir C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/new/lioncage.vhd w ]
+add_files -fileset sim_1 C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/new/lioncage.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+source TB_parity.tcl
+run all
+close_sim
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/new/TB_lioncage.vhd w ]
+add_files -fileset sim_1 C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/new/TB_lioncage.vhd
+update_compile_order -fileset sim_1
+close [ open C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sources_1/new/lioncage.vhd w ]
+add_files C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sources_1/new/lioncage.vhd
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_parity.tcl
+close_sim
+remove_files -fileset sim_1 C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/new/lioncage.vhd
+file delete -force C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/new/lioncage.vhd
+add_files -fileset sim_1 -norecurse C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sources_1/new/lioncage.vhd
+import_files -fileset sim_1 -force -norecurse C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sources_1/new/lioncage.vhd
+remove_files C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sources_1/new/lioncage.vhd
+file delete -force C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sources_1/new/lioncage.vhd
+update_compile_order -fileset sim_1
+add_files -norecurse C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/imports/new/lioncage.vhd
+import_files -force -norecurse C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/imports/new/lioncage.vhd
+remove_files -fileset sim_1 C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/imports/new/lioncage.vhd
+file delete -force C:/Users/ol1662le-s/Program/project_2/project_2.srcs/sim_1/imports/new/lioncage.vhd
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_lioncage [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_project
+open_project C:/Users/ol1662le-s/Program/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source TB_lioncage.tcl
+close_sim
+launch_simulation
+source TB_lioncage.tcl
+close_sim

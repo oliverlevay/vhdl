@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Nov 09 17:05:12 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="d49ea7a02a6d4ae8b784cec804864981" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="5" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="MoveToDesignSet" value="1" type="JavaHandler"/>
+<property name="MoveToSimSet" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="SetTopNode" value="1" type="JavaHandler"/>
+<property name="SimulationClose" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="6" type="JavaHandler"/>
+<property name="SimulationRunAll" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN, Run Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, lioncage - Behavioral (lioncage.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, TB_lioncage - Behavioral (TB_lioncage.vhd" value="13" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, TB_mirandas_state_machine - Behavioral (TB_mirandas_state_machine.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FLOW, Flow" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_TOOLS, Tools" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_WINDOW, Window" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="3" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_OUT, Waveform Viewer_zoom_out" value="4" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 103, 585" value="1" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 90, 439" value="1" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 97, 232" value="1" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 97, 232, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 97, 277" value="1" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 97, 490" value="1" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 98, 489" value="1" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 98, 636" value="1" type="GuiResourceData"/>
+<property name="TB_lioncage.vhd, 99, 538" value="1" type="GuiResourceData"/>
+<property name="lioncage.vhd, 200, 351" value="1" type="GuiResourceData"/>
+<property name="lioncage.vhd, 200, 351, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lioncage.vhd, 274, 346, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="lioncage.vhd, 277, 343" value="1" type="GuiResourceData"/>
+<property name="lioncage.vhd, 380, 231" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
