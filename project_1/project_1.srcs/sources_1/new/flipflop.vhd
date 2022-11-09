@@ -43,7 +43,7 @@ architecture Behavioral of flipflop is
         port (
             clk : in STD_LOGIC;
             phi1 : out STD_LOGIC;
-            phi2 : out STD_LOGIC;
+            phi2 : out STD_LOGIC
         );
     end component;
     
@@ -53,7 +53,7 @@ architecture Behavioral of flipflop is
             x1 : in STD_LOGIC;
             x2 : in STD_LOGIC;
             f1 : out STD_LOGIC;
-            f2 : out STD_LOGIC);
+            f2 : out STD_LOGIC
         );
     end component;
 
@@ -73,7 +73,7 @@ begin
     port map(
         clk => clk,
         phi1 => s_phi1,
-        phi2 => s_phi2,
+        phi2 => s_phi2
     );
 
     l1: latch
@@ -82,13 +82,15 @@ begin
         x1 => D,
         x2 => s_not_D,
         f1 => s_y1,
-        f2 => s_y2,
-    )
+        f2 => s_y2
+    );
 
     l2: latch
     port map(
         phi => s_phi2,
-        x1 => 
-    )
-
+        x1 => s_y1,
+        x2 => s_y2,
+        f1 => s_Q,
+        f2 => s_Q_p
+    );
 end Behavioral;
