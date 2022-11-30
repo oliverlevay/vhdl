@@ -64,16 +64,22 @@ begin  -- architecture FSM_arch
         when s0 =>
             if start = '1' then
                 next_state <= s1;
+            else
+                next_state <= s0;
             end if;
         when s1 =>
             if stop = '1' then
                 next_state <= s2;
+            else
+                next_state <= s1;
             end if;
         when s2 =>
             if stop = '1' then 
                 next_state <= s3;
             elsif start = '1' then
                 next_state <= s1;
+            else 
+                next_state <= s2;
             end if;
         when s3 => 
             next_state <= s0;

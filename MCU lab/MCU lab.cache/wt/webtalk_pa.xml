@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Wed Nov 30 11:34:38 2022">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="1248888f480f41a7be926d152d559def" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="4" type="JavaHandler"/>
+<property name="CloseProject" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="11" type="JavaHandler"/>
+<property name="EditUndo" value="4" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="3" type="JavaHandler"/>
+<property name="RunSynthesis" value="1" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
+<property name="SetTopNode" value="4" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="SimulationClose" value="9" type="JavaHandler"/>
+<property name="SimulationRun" value="17" type="JavaHandler"/>
+<property name="SimulationRunAll" value="14" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="MUX2x8.vhd, 205, 243" value="1" type="GuiResourceData"/>
+<property name="MUX2x8.vhd, 309, 249" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SET_AS_TOP, Set as Top" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, simulation_live_run_all" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, MUX2x8 - behaviour (MUX2x8.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, adressvaljare - structural (adressvaljare.vhd" value="8" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, registerblock - structural (registerblock.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, berakningsenhet_tb - behaviour (berakningsenhet_tb.vhd" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, registerblock_tb - tb (registerblock_tb.vhd" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 7, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Run Synthesis], 13, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_EXPORT, Export" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, Open Recent File" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String" value="4" type="GuiResourceData"/>
+<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Vivado Commands, launch_simulation. ], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SaveProjectUtils_CANCEL, Cancel" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="2" type="GuiResourceData"/>
+<property name="RDIResource.GraphicalView_ZOOM_FIT, Waveform Viewer_zoom_fit" value="2" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 106, -19" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 106, -78" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 77, -58" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 79, -95" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 12*" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, RegOut[7:0]], 5, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, RegOut[7:0]], 5, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="adressvaljare.vhd, 20, 436" value="1" type="GuiResourceData"/>
+<property name="adressvaljare.vhd, 27, 453" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 102, 572" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 104, 537" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 105, 552" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 106, 535" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 108, 519" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 109, 485" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 116, 245" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 120, 430" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 124, 554" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 134, 503" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 138, 513" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 138, 548" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 139, 444" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 139, 549" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 140, 531" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 141, 531" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 144, 580" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 145, 532" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 146, 533" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 151, 547" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 154, 498" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 155, 573" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 174, 523" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 178, 321" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 20, 556" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 211, 280" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 212, 482" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 212, 495" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 213, 285" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 222, 157" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 230, 572" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 25, 555" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 278, 278" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 320, 145" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 329, 232" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 329, 238" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 347, 248" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 348, 469" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 36, 550" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 364, 276" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 365, 468" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 39, 555" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 395, 298" value="2" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 411, 365" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 428, 438" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 47, 447" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 52, 538" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 53, 498" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 55, 365" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 57, 538" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 59, 531" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 61, 280" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 61, 280, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 65, 537" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 65, 559" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 69, 516" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 69, 528" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 70, 588" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 77, 101" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 79, 259" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 84, 554" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 89, 591" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 90, 565" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 91, 559" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 96, 538" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 97, 489" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 97, 489, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="berakningsenhet.vhd, 99, 246" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 106, 554" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 106, 554, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 107, 543" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 107, 543, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 120, 450" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 122, 466, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 123, 466" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 125, 555" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 125, 555, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 130, 484" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 137, 447" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 138, 485" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 147, 485" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 147, 539" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 149, 533" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 158, 450" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 2, 176" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 2, 176, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 30, 168" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 318, 295" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 324, 551" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 331, 230" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 36, 547" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 362, 333" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 38, 551" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 42, 463" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 56, 142" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 56, 159" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 71, 464" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 72, 460" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 76, 479" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 85, 147" value="1" type="GuiResourceData"/>
+<property name="registerblock.vhd, 91, 167" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

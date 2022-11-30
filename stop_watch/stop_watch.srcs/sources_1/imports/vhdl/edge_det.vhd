@@ -35,6 +35,9 @@ begin  -- architecture edge_det_arch
             elsif n_rst = '1' then
                 next_state <= s1;
                 det_edge <= '1';
+            else 
+                next_state <= s0;
+                det_edge <= '0';
             end if;
         when s1 =>
             if inp = '0' then

@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../MCU lab.srcs/sources_1/imports/MCU/komponenter/MUX2x8.vhd"
+vhdl xil_defaultlib  "../../../MCU lab.srcs/sources_1/imports/MCU/komponenter/REG8.vhd"
+vhdl xil_defaultlib  "../../../MCU lab.srcs/sources_1/imports/MCU/labbfiler/cpu_pkg.vhd"
+vhdl xil_defaultlib  "../../../MCU lab.srcs/sources_1/imports/MCU/labbfiler/registerblock.vhd"
+vhdl xil_defaultlib  "../../../MCU lab.srcs/sources_1/imports/MCU/komponenter/ALU8.vhd"
+vhdl xil_defaultlib  "../../../MCU lab.srcs/sources_1/imports/labbfiler/berakningsenhet.vhd"
+vhdl xil_defaultlib  "../../../MCU lab.srcs/sim_1/imports/tb/berakningsenhet_tb.vhd"
+
+# Do not sort compile order
+nosort
